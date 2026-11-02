@@ -15,7 +15,7 @@
 
 - 取り組んだレベル：基礎
 - 変えた設定やデータ：num_train_epochsを20から10に変更した。
-- 結果（比較表や数字）：
+- 結果（比較表や数字）
 【変更前(num_train_epochs=20)】
 ･format_rate : 100%　　　　     
 ･content_rate : 90.5%
