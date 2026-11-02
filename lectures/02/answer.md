@@ -16,14 +16,14 @@
 - 取り組んだレベル：基礎
 - 変えた設定やデータ：num_train_epochsを20から10に変更した。
 - 結果（比較表や数字）：
-【変更前(num_train_epochs=20)】　
-･format_rate : 100%　　　　　     
-･content_rate : 90.5%　　　　　   
-･最終loss : 0.013925             
+【変更前(num_train_epochs=20)】
+･format_rate : 100%　　　　     
+･content_rate : 90.5%
+･最終loss : 0.013925
 ･学習時間 : 252秒 
 
-【変更後(num_train_epochs=10)】  
-･format_rate : 100%  
+【変更後(num_train_epochs=10)】
+･format_rate : 100% 
 ･content_rate : 85.7% 
 ･最終loss : 0.099879 
 ･学習時間 : 111秒
