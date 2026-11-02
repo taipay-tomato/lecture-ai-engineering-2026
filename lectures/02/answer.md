@@ -16,11 +16,17 @@
 - 取り組んだレベル：基礎
 - 変えた設定やデータ：num_train_epochsを20から10に変更した。
 - 結果（比較表や数字）：
-【変更前(num_train_epochs=20)】　【変更後(num_train_epochs=10)】
-･format_rate : 100%　　　　　     ･format_rate : 100%
-･content_rate : 90.5%　　　　　   ･content_rate : 85.7%
-･最終loss : 0.013925             ･最終loss : 0.099879
-･学習時間 : 252秒           　　  ･学習時間 : 111秒
+【変更前(num_train_epochs=20)】　
+･format_rate : 100%　　　　　     
+･content_rate : 90.5%　　　　　   
+･最終loss : 0.013925             
+･学習時間 : 252秒 
+
+【変更後(num_train_epochs=10)】  
+･format_rate : 100%  
+･content_rate : 85.7% 
+･最終loss : 0.099879 
+･学習時間 : 111秒
 
 - ファインチューニングが向く場面・向かない場面についての考察：
 ･上記の結果から、epoch数を20から10に減らしてもformat_rateは100%を維持でき、学習時間を約56%短縮できた一方、content_rateは4.8ポイント低下したため、学習回数と回答精度・学習効率のバランスが重要であることが分かった。
